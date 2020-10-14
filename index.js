@@ -1,5 +1,7 @@
 // Import the express lirbary
 const express = require('express')
+const https = require('https')
+const fs = require('fs')
 
 // Import the axios library, to make HTTP requests
 const axios = require('axios')
